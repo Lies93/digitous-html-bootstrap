@@ -1,0 +1,19 @@
+.yellow{
+    background-color: yellow;
+    color: yellow;
+}
+.blue{
+    background-color: blue;
+    color: blue;
+}
+.row div div{
+    height: 2rem;
+    margin: 2px;
+}
+.red{
+    background-color:red;
+    color:red;
+}
+.pink{
+    background-color: pink;
+}
