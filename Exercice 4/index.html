@@ -23,8 +23,16 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Team</a>
+          <li class="nav-item"><li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Team
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">contact</a>
@@ -37,16 +45,18 @@
   </nav>
   <div class="container">
 
-    <div class="row justify-content-around">
+    <div class="row">
 
       <div class="p-3 mb-2 bg-secondary text black">
       <div class="col-8 fs-1">
         hi ! My name is Eminem !
       </div>
-
-      <div class="col-4 offset-9">
+        
+      <div class="col-4  offset-9">
+        <div>
         <img src="./../img/eminem.jpg"  class="rounded-circle text-center" height="150" alt="photo d'eminem"  >
-        <h1 class=" text-center "> slim shady</h1>
+        <h3 class=" text-center "> slim shady</h3>
+      </div>
       </div>
     </div>
     </div>
@@ -66,6 +76,8 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt commodi aperiam, neque mollitia quibusdam est enim dolor explicabo! Dolore magnam, in odit reprehenderit accusamus veniam tempore laboriosam obcaecati ullam similique quisquam ut voluptas ipsum quaerat quia qui nemo temporibus at natus aut, vel tempora amet! Non atque amet rem minima.
       </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
